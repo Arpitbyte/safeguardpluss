@@ -1,0 +1,26 @@
+
+* {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Segoe UI', sans-serif;}
+body {background: #0d0d0d;color: #e0e0e0;line-height: 1.6;}
+header {display: flex;justify-content: space-between;align-items: center;padding: 20px 50px;background: rgba(0,0,0,0.8);position: fixed;width: 100%;top: 0;z-index: 100;}
+.logo {font-size: 2rem;font-weight: bold;color: #00ffe0;}
+.logo span {color: #ff0077;}
+nav ul {list-style: none;display: flex;gap: 30px;}
+nav a {color: #fff;text-decoration: none;font-weight: 500;transition: color 0.3s ease;}
+nav a:hover {color: #00ffe0;}
+#hero {height: 100vh;background: linear-gradient(to right, #050505 60%, #101010), url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') center/cover no-repeat;display: flex;align-items: center;justify-content: center;text-align: center;padding: 0 20px;}
+.hero-text h1 {font-size: 4rem;color: #00ffe0;}
+.hero-text span {color: #ff0077;}
+.hero-text p {font-size: 1.3rem;margin: 20px 0;color: #ccc;}
+.hero-text button {padding: 10px 20px;font-size: 1rem;background: #00ffe0;color: #000;border: none;border-radius: 5px;cursor: pointer;transition: background 0.3s ease;}
+.hero-text button:hover {background: #ff0077;color: #fff;}
+section {padding: 80px 50px;}
+h2 {font-size: 2.5rem;margin-bottom: 20px;color: #00ffe0;}
+.features-container {display: flex;justify-content: space-around;flex-wrap: wrap;gap: 20px;}
+.feature-card {background: #1a1a1a;padding: 20px;border-radius: 10px;width: 30%;min-width: 250px;transition: transform 0.3s ease;}
+.feature-card:hover {transform: translateY(-10px);}
+.feature-card h3 {color: #ff0077;margin-bottom: 10px;}
+form {display: flex;flex-direction: column;gap: 15px;max-width: 500px;margin: auto;}
+input, textarea {padding: 10px;border: none;border-radius: 5px;}
+button {background: #00ffe0;padding: 10px;border: none;border-radius: 5px;cursor: pointer;font-weight: bold;}
+button:hover {background: #ff0077;color: #fff;}
+footer {text-align: center;padding: 20px;background: #000;color: #666;}
